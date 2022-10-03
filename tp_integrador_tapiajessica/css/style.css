@@ -1,0 +1,104 @@
+/* header nav*/
+.navbar-brand img {
+    max-width: 100px;
+}
+
+#botonverde {
+    color: #25a342;
+}
+
+#colornav {
+    display: flex;
+    position: absolute;
+    background-color: rgb(49, 54, 63);
+    width: 100%;
+    margin-bottom: 676px;
+}
+/* header carousel*/
+.fondo {
+    background-color: black;
+    
+}
+.carousel-inner{
+    opacity: 0.5;
+}
+header {
+    display: flex;
+    align-items:flex-end;
+}
+#card-carrusel {
+    display: flex;
+    position: absolute;
+    margin-left: 700px;
+    margin-bottom: 260px;
+}
+#botonticket {
+    background-color: rgb(50, 180, 63);
+    border-color:rgb(50, 180, 63);
+}
+
+/*main cards*/
+
+.contenedor-card {
+    width: 70%;
+    margin: auto;
+}
+.caja-card{
+    background-color: white;
+    position: absolute;
+    top: 700px;
+}
+/*main titulos*/
+.parrafo {
+    text-align: center;
+}
+
+/*main honolulu*/
+.honolulu {
+    display: flex;
+    width: 100%;
+    margin-top: 530px;
+}
+.card-lulu {
+    background-color: rgb(53, 57, 59);
+    color: white;
+    padding: 15px;
+    margin-left: 1px;
+}
+#etiquetas{ 
+    font-weight: bold;
+    font-size: 11px;
+    padding: 1px 5px 1px 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+}
+#card {
+    font-size: 13px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+/*main formulario*/
+.form-orador{
+    width: 50%;
+    margin: auto;
+}
+#boton-enviar {
+    background-color: #89c559;
+    color: white;
+}
+/*footer nav*/
+
+footer {
+    margin-top: 12px ;
+    background-color: rgb(29, 63, 83);
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    align-items: center;
+}
+footer .nav-item {
+    margin-right: 25px;
+    margin-left: 25px;
+    font-size: 13px;
+}
