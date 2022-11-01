@@ -1,0 +1,110 @@
+body{
+    margin: auto;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* header nav*/
+.navbar-brand img {
+    max-width: 100px;
+}
+
+#botonverde {
+    color: #ffffff;
+    background-color: #6caa39;
+    border-radius: 5%;
+    text-align: center;
+}
+#botonverde:hover{
+    opacity: 0.9;
+}
+
+#colornav {
+    background-color: rgb(49, 54, 63);
+    width: 100%;
+    top: 0;
+}
+
+/*carrusel*/
+
+.bolso{
+    border: 2px solid red;
+    
+    display: flex;
+    justify-content: flex-end;
+}
+.carrusel{
+    display: flex;
+    position: absolute;
+    background-color: black;
+}
+
+#carouselExampleSlidesOnly{
+    opacity: 0.5;
+}
+/* carousel card*/
+
+
+#botonticket {
+    background-color: rgb(50, 180, 63);
+    border-color:rgb(50, 180, 63);
+}
+
+/*main cards*/
+
+
+.contenedor-card {
+    width: 70%;
+    margin: auto; 
+}
+
+
+/*main titulos*/
+.parrafo {
+    text-align: center;
+}
+
+/*main honolulu*/
+.honolulu {
+    display: flex;
+    width: 100%;
+}
+.card-lulu {
+    background-color: rgb(53, 57, 59);
+    color: white;
+    padding: 15px;
+    margin-left: 1px;
+}
+#etiquetas{ 
+    font-weight: bold;
+    font-size: 11px;
+    padding: 1px 5px 1px 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+}
+#card {
+    font-size: 13px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+/*main formulario*/
+.form-orador{
+    width: 50%;
+    margin: auto;
+}
+#boton-enviar {
+    background-color: #89c559;
+    color: white;
+}
+
+
+/*footer nav*/
+
+footer {
+    padding: 1em;
+    align-items: center;
+    background-color: rgb(29, 63, 83);
+    color: white;
+    margin-top: 10px;
+    
+}

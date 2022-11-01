@@ -1,0 +1,79 @@
+body{
+    position: relative;
+    padding-bottom:10.5em;
+    min-height: 100vh;
+}
+
+/* header nav*/
+
+
+.navbar-brand img {
+    max-width: 100px;
+}
+
+#botonverde {
+    color: #25a342;
+}
+
+#colornav {
+    background-color: rgb(49, 54, 63);
+    width: 100%;
+}
+ 
+/*opciones categorias*/
+
+
+
+#card {
+    border-radius:0% ;
+    text-align: center;
+}
+
+.card-header{
+    
+    font-size: 25px;
+    color: white;
+}
+
+/*footer nav*/
+
+footer {
+    padding: 1em;
+    align-items: center;
+    background-color: rgb(29, 63, 83);
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
+#caja-principal {
+    margin: auto;
+    align-items: flex-start;
+}
+
+/*boton color*/
+
+#boton1{
+    background-color:  rgb(152, 197, 94);
+    border:none;
+}
+
+#boton2{
+    background-color:  rgb(152, 197, 94);
+    border: none;
+}
+
+#boton1:hover {
+    background-color: rgb(142, 192, 6);
+    
+}
+
+#boton2:hover {
+    background-color: rgb(142, 192, 6);
+    
+}
+    
+
+    
